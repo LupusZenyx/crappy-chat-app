@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#chat {
+    display: flex;
+    justify-content: space-between;
+}
+
+#users, #messages {
+    flex: 1;
+    padding: 10px;
+}
+
+#users {
+    background-color: #f0f0f0;
+}
+
+#userList, #messageList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#userList li {
+    margin: 5px 0;
+}
+
+#messageList li {
+    margin: 5px 0;
+}
+
+input, button {
+    margin: 5px 0;
+}
+
+#message_input, #username_input {
+    width: 70%;
+}
